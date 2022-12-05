@@ -1,0 +1,10 @@
+user (id int PRIMARYKEY AUTOINCREMENT,  username text,  password text, phone text , question text ,  answer text )
+
+
+student (id INTEGER PRIMARY KEY AUTOINCREMENT, fullName text , phone text , email text , level text, date text  , dateOfBirth text  , gender text ,address text, avilable text )
+
+pay (id INTEGER PRIMARY KEY AUTOINCREMENT,student_id int ,money int , date text )
+
+attendance (id INTEGER PRIMARY KEY AUTOINCREMENT, student_id int, date text, hours int)
+
+INSERT INTO user (username , password , phone , question , answer ) values ('Rawan Ghanem' , '1', '1','who is your programmer ?' , 'moaaz')
